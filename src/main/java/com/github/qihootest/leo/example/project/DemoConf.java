@@ -8,7 +8,7 @@ public class DemoConf {
 //	public static String heard1 = "value1";  //可以在此处添加多个全局heard,key必须包含于HeardPara数组中
 	
 	public static final String[]  HeardPara ={""};
-	public static final String[] GetPara = {"para1","para2","para3","para4","para5","sign"};
+	public static final String[] GetPara = {"gpara1","gpara2","gpara3","gpara4","gpara5","sign"};
 	public static final String[] PostPara = {"para1","para2","para3","para4","para5","sign"};
 	public static final String ENCODING="UTF-8";
 	

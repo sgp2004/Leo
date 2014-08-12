@@ -2,7 +2,6 @@ package com.github.qihootest.leo.example.project;
 
 import java.util.TreeMap;
 
-import com.github.qihootest.leo.ift.core.CasesUtils;
 import com.github.qihootest.leo.ift.core.IFtResultInfo;
 import com.github.qihootest.leo.ift.testcase.IftTestCase;
 import com.github.qihootest.leo.ift.util.CommonSign;

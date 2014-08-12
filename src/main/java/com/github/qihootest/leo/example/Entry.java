@@ -31,13 +31,29 @@ public class Entry {
 			cls 执行用例的类 必填
 			method 类中的方法 必填
 		 */
-		String excelFilePath = IftConf.RootPath+"demo.xlsx";
-		
-		iftExec.addCase(excelFilePath,"Sheet1","用例名称1",
+		String excelFilePath = IftConf.RootPath+"demo.xls";
+//        String excelFilePath = IftConf.RootPath+"demo_bak.xlsx";
+
+        iftExec.addCase(excelFilePath,"Sheet1 - 表格 1","用例名称1",
 				DemoCasesUtils.class,"DemoMethod1");
-		iftExec.addCase(excelFilePath,"Sheet2","用例名称2",
+		iftExec.addCase(excelFilePath,"Sheet2 - 表格 1","用例名称2",
 				DemoCasesUtils.class,"DemoMethod1");
-		
+        iftExec.addCase(excelFilePath,"Sheet3 - 表格 1","用例名称3",
+                DemoCasesUtils.class,"DemoMethod1");
+        iftExec.addCase(excelFilePath,"Sheet4 - 表格 1","用例名称4",
+                DemoCasesUtils.class,"DemoMethod1");
+        iftExec.addCase(excelFilePath,"Sheet5 - 表格 1","用例名称5",
+                DemoCasesUtils.class,"DemoMethod1");
+        iftExec.addCase(excelFilePath,"Sheet6 - 表格 1","用例名称6",
+                DemoCasesUtils.class,"DemoMethod1");
+        iftExec.addCase(excelFilePath,"Sheet7 - 表格 1","用例名称7",
+                DemoCasesUtils.class,"DemoMethod1");
+        iftExec.addCase(excelFilePath,"Sheet8 - 表格 1","用例名称8",
+                DemoCasesUtils.class,"DemoMethod1");
+        iftExec.addCase(excelFilePath,"Sheet9 - 表格 1","用例名称9",
+                DemoCasesUtils.class,"DemoMethod1");
+        iftExec.addCase(excelFilePath,"Sheet10 - 表格 1","用例名称10",
+                DemoCasesUtils.class,"DemoMethod1");
 		//执行
 		TestReport report=iftExec.run();
 		
